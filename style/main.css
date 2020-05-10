@@ -12,7 +12,7 @@ body {
 
 #top-overlay {
     position: absolute;
-    background-image: url('/bg.png');
+    background-image: url('../bg.png');
     background-position: center center;
     background-attachment: fixed;
     background-size: cover;
