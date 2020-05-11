@@ -23,7 +23,7 @@ async function search(item) {
 
 function displayData(data) {
     found.innerHTML = `
-        <h3>${data.total} <span class="fw-300">results found</span></h3>
+        <h3>Results</h3>
         <ul class="songs">
             ${data.data.map(
                 song => `<li class="song">
