@@ -108,6 +108,19 @@ form {
 #loader {
     display: none;
 }
+.loader {
+    
+    position: fixed;
+    top: 46%;
+    left: 46%;
+    border: 16px solid #a1a1a1;
+    border-radius: 50%;
+    border-top: 16px solid #0b099b;
+    width: 7rem;
+    height: 7rem;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+}
 
 .songs {
     list-style-type: square;
@@ -134,4 +147,22 @@ form {
 
 #found, #see-more {
     margin-top: 2rem;
+}
+
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
 }
