@@ -149,6 +149,7 @@ form {
     margin-top: 2rem;
 }
 
+
 @-webkit-keyframes spin {
     0% {
         -webkit-transform: rotate(0deg);
